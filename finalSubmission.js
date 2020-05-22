@@ -81,3 +81,10 @@ price.style.color = '#1aaf1e';
     the bounce rate of users initally coming to the site: thinking about intuitive navigation. I would do this through micro A/B testing, heat mapping. The priority of this would come from what was most important to the marketing team. If I were to assume that this was overall conversions I would start with cart abandoment as less people make it there the A/B testing would be more effective/ less time consuming/ produce faster results.
     If I was testing the checkout I would like to test how the products are laid out: grid? consistency with sizing of the add and subtract buttons, making the total savings larger, moving the checkout button up, taking away the 'go to cart' - as I believe I am already in the cart.
     */
+//task 3
+/*
+structuring of a test:
+observation: based on the graph above there is a high abandoment of the basket without proceeding to checkout. 
+hypothesis: if the checkout cart icon was in the bottom right hand corner when you scrolled it would remind users that there was something in their cart. 
+variations: I would have two varations of this. 50% of users would see the page as is, this would allow a control group for our test to be run against. I would have the other 50% see the cart at the bottom right hand corner. This test would run for two weeks, and would run for the full two weeks to ensure the test was viable. 
+*/
