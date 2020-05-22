@@ -10,9 +10,11 @@ const banner = document.querySelector('.image-element__wrap');
 banner.style.height = '20vh';
 
 //task 3
-//provide 2 aditional scenarios that could be A/B tested on this page to help a prospective customer convert to a sale.
-//scenario one - make banner smaller and make the text of everything up to 40% off more visible, take away the text of 'all sex toys'. My hypothesis being that it is wasted space and takes the user longer to get to the products. 
-//scenario two - Make the filter button more prominent than the most reviews drop down. My hypothesis being, based on the heat map it is clicked doulbe the amount as the reviews button and if more prominent would allow users to mpre quickly access the product of choice. 
+/*provide 2 aditional scenarios that could be A/B tested on this page to help a prospective customer convert to a sale.
+Scenario one - I would make the banner smaller and make the text of ‘everything up to 40% off’ more visible. I would also, but not at the same time for testing purposes, take away the text of 'All Sex Toys'. My hypothesis in this scenario being that it would take the user less time to navigate to the products.
+Scenario two - Make the filter button more prominent in comparison to the most reviews drop down menu.
+My hypothesis being, based on the heat map it is clicked double the amount as the reviews button and if more prominent would allow users to more quickly access their product of choice. 
+*/
 
 //PRODUCT DETAIL EXCERCISE
 //task 1
@@ -70,16 +72,17 @@ price.style.fontWeight = 'bold';
 price.style.color = '#1aaf1e';
 
 // rationale
-// other places that I considered putting it were ontop of the image with a square border around it, to mimic the rest of the site, but this would be too close to the logo of lelo. I also considered putting it to the left of the page above the reviews but it felt too crowded.
+// I considered placing the price ontop of the image, with a green square border around it like the branding of ‘add to cart’ but this took away from the branding on the image of Lelo. I tested the price on the left side of the page as well, but it felt too crowded and heavy. 
 
 // CONVERSION FUNNEL
 //task 1
-// I believe that you should focus on your basket abandonment to imporve your conversion rate. This graph shows me that only 6% of users go on to the check out. 
+//  I believe that Simpli should focus on basket abandonment to imporve your conversion rate. This graph shows that only 6% of users go on to the check out. 
 // task 2
-// I would like to test:
-    /* basket abandonment: through an email reminder, that folks have something in their cart, if we kept track of this during a sale time making an email campaign that let users know that whatever was in their cart now had a discount. 
-    the bounce rate of users initally coming to the site: thinking about intuitive navigation. I would do this through micro A/B testing, heat mapping. The priority of this would come from what was most important to the marketing team. If I were to assume that this was overall conversions I would start with cart abandoment as less people make it there the A/B testing would be more effective/ less time consuming/ produce faster results.
-    If I was testing the checkout I would like to test how the products are laid out: grid? consistency with sizing of the add and subtract buttons, making the total savings larger, moving the checkout button up, taking away the 'go to cart' - as I believe I am already in the cart.
+    /*I would like to test the following:Basket abandonment: I would like to test through an email reminder, reminding users that they have a product in their cart. If Simpli kept track of this during a sale time I would like to test making an email campaign that let users know that the item that was in their cart now had a discount. 
+    Bounce rate of users initally coming to the site: I would like to think about intuitive and accessible navigation. I would test this through micro A/B testing and heat mapping. 
+    The priority of this would come from what was most important to the marketing team but would ultimately depend on Simpli’s organizational sturucture.
+    If I were to assume that the top priority was overall conversions I would start with cart abandoment - as less people make it to the cart the A/B testing would be more effective/ less time consuming/ produce faster results.
+    If I was testing the checkout I would like to test how the products are laid out: grid? consistency with sizing of the add and subtract buttons, making the total savings larger, moving the checkout button up, taking away the 'go to cart' button.
     */
 //task 3
 /*
